@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- tailwind css cdn -->
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-   <!-- google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 <!-- font awesome cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -18,9 +15,9 @@
 
   <title>legal-solution-resources</title>
 </head>
-<body>
+<body class="font-poppins">
   <header>
-    <nav class="flex px-[10px] sm:px-5 md:px-8 lg:px-10 xl:px-[150px] 2xl:px-[300px] py-[20px] lg:py-[30px] xl:py-[50px] justify-between items-center">
+    <nav class="font-poppins flex px-[10px] sm:px-5 md:px-8 lg:px-10 xl:px-[150px] 2xl:px-[300px] py-[20px] lg:py-[30px] xl:py-[50px] justify-between items-center releative">
       <ul class="lg:hidden md:block"><li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg></li></ul>
       <div class="logo mx-auto lg:mx-0 max-w-25 sm:max-w-35 md:max-w-full">
         <img src="./images/logo2.png" alt="it's company logo" class="max-w-158px">
@@ -40,6 +37,18 @@
 
       <!-- px-[29px] py-[18px] -->
     </nav>
+
+    <section id="hero" class=" px-10px 2xl:px-[300px] py-[50px]">
+      <div  class=" relative bg-[url('./images/banner.png')] bg-cover bg-center 2xl:px-[239px] py-[104px]">
+        <div class=" absolute inset-0 bg-linear-to-b black/20 to-black/70"></div>
+        <h1 class="font-Garamond text-white text-center text-[40px] 2xl:text-[72px] leading-[45px] 2xl:leading-[85px] font-extrabold mb-6 relative z-10">We Provide Effective <br>Legal Solutions</h1>
+        <p class="relative text-white z-10 leading-[26px] text-center mb-8">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+        <div class="search flex justify-center items-center gap-[24px]">
+          <input type="text" placeholder="Search your services" name="text" id="" class="relative z-10 bg-white rounded-[8px] pl-[20px] pr-[100px] 2xl:pr-[314px] py-[19px]">
+          <button type="button"  class=" px-[39px] py-[17px] bg-[#B68C5A] text-white font-medium text-[14px] lg:text-[18px] lg:font-semibold rounded-[8px] relative z-10 inline-block"><a href="">Search</a></button>
+        </div>
+      </div>
+    </section>
   </header>
   
 </body>
